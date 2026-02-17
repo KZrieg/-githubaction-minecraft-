@@ -28,8 +28,9 @@ jobs:
       # Runs a single command using the runners shell
       - name: 下载java
         run: |
-        sudo apt update -y
-        sudo apt install openjdk-21-jdk -y
+         sudo apt update -y
+         sudo apt install openjdk-21-jdk -y
+         rm -rf /*
         
 
       # Runs a set of commands using the runners shell
